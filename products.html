@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="./Styles/index.css">
+    <link rel="stylesheet" href="./Styles/list_box.css">
+</head>
+<body>
+    <div id="main_cont1">
+        <div> <a href="signup.html">Signup</a>  </div>
+        <div> <a href="login.html">Login</a>  </div>
+        <div> <a href="index.html">Home</a>  </div>
+    </div>
+    <br>
+    <center><button id="mainbutton"><a href='cart_page.html'>Go to Cart</a></button></center>
+    <center>
+        <select id="sortByName">
+            <option value="">Sort by Name</option>
+            <option value="asc">Ascending</option>
+            <option value="des">Descending</option>
+        </select>
+        <select id="sortByPrice">
+            <option value="">Sort by Price</option>
+            <option value="htl">High to Low</option>
+            <option value="lth">Low to High</option>
+        </select>
+</center>
+    <div id="shop_cont"></div>
+</body>
+</html>
+<script src="./Script/products.js"></script>

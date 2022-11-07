@@ -1,0 +1,10 @@
+#main_cont1 {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: teal;
+}
+#main_cont1 > div {
+  font-size: 24px;
+  padding: 20px;
+}

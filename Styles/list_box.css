@@ -1,0 +1,106 @@
+/* * {
+  margin: 0 auto;
+  padding: 0 auto;
+} */
+#mainbutton {
+  /* background-color: aliceblue; */
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#main_cont1 {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: teal;
+}
+#main_cont1 > div {
+  font-size: 24px;
+  padding: 20px;
+}
+#shop_cont {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 30px;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+#shop_cont > div {
+  /* border: 1px solid rgb(18, 104, 87); */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  text-align: center;
+}
+#shop_cont > div > p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#shop_cont > div > div,
+#shop_cont > div > p {
+  padding: 0px 25px 0px 10px;
+  font-weight: bolder;
+  font-size: 18px;
+}
+#shop_cont > div > div {
+  /* border: 1px solid blue; */
+  width: 99%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+}
+img {
+  height: 300px;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.strike {
+  text-decoration: line-through black;
+  color: rgb(162, 162, 162);
+  font-weight: normal;
+  font-size: 16px;
+  padding: 5px 25px 0px 10px;
+}
+button {
+  border-radius: 5px;
+  background-color: rgb(210, 210, 210);
+  margin: 10px;
+  padding: 10px;
+  margin-top: 0px;
+  background-color: yellowgreen;
+}
+button:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+  padding: 10px;
+}
+button > a {
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+}
+button > a:hover {
+  color: blueviolet;
+}
+
+#sortByName,
+#sortByPrice {
+  padding: 10px;
+  font-size: larger;
+  border-radius: 10px;
+  box-shadow: rgb(50, 181, 181) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  /* background-color:rgb(50, 181, 181); */
+}

@@ -1,0 +1,36 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+form {
+  margin-top: 30px;
+  box-sizing: border-box;
+  width: 30%;
+  padding: 20px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+label {
+  padding: 1px;
+  font-size: 25px;
+  width: 100%;
+}
+input {
+  font-size: 20px;
+  width: 95%;
+  margin-bottom: 15px;
+}
+h2 {
+  margin-bottom: 20px;
+}
+#submit {
+  margin-top: 20px;
+  padding: 2px;
+  width: 97%;
+  border-radius: 5px;
+  background-color: lightskyblue;
+}
+#submit:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}

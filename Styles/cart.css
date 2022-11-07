@@ -1,0 +1,26 @@
+* {
+  margin: auto;
+}
+h1 {
+  margin-top: 10px;
+  color: blueviolet;
+}
+#priceP {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: maroon;
+  text-decoration: underline;
+  display: inline-block;
+}
+#rem {
+  margin-top: 9px;
+  color: red;
+  background-color: rgb(252, 203, 203);
+}
+.but_head {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  display: inline-block;
+}
